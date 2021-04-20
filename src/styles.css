@@ -1,0 +1,109 @@
+html,
+body {
+  font-family: monospace, sans-serif;
+  height: 100%;
+  background-color: pink;
+}
+
+header {
+  width: 100%;
+  font-weight: 700;
+  font-family: Pacifico, cursive;
+  text-align: center;
+}
+header h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+header h2 {
+  font-family: "Open Sans", sans-serif;
+  max-width: 500px;
+  font-size: 35px;
+  margin: auto;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  padding-bottom: 30px;
+}
+
+.links {
+  color: #333;
+  font-size: 20px;
+}
+.links span {
+  padding: 0 15px;
+}
+.links a {
+  color: inherit;
+  letter-spacing: 0.6px;
+}
+
+.box {
+  border: 3px solid black;
+  background-color: white;
+}
+
+.box h2 {
+  margin: 0px 0px 0px 0px;
+  padding: 5px;
+  font-size: 25px;
+}
+
+div {
+  margin: 10px;
+}
+
+div .info {
+  margin: 0px 0px 0px 0px;
+  background: linear-gradient(90deg, hotpink, #54b2f0);
+}
+
+#input textarea {
+  resize: vertical;
+  height: 150px;
+  min-height: 150px;
+  font-size: 18px;
+  width: 100%;
+  margin: 3px -1px;
+  padding: 0;
+  background-color: transparent;
+}
+
+#outputTextBox {
+  margin: 5px 0px 5px 0px;
+}
+
+table {
+  width: 80%;
+  margin: auto;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 3px solid white;
+}
+
+th,
+td {
+  padding: 5px;
+}
+
+#app {
+  display: flex;
+}
+
+#input {
+  width: 50%;
+}
+
+#output {
+  width: 50%;
+}
+
+#outputTextBox {
+  overflow-wrap: break-word;
+  font-size: 18px;
+}

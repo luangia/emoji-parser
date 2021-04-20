@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>✨Emoji-nator✨</h1>
+      <div class="links">
+        <a href="https://forms.gle/bk5dUaPG9uYGQ3hU8" target="_blank"
+          >Recommend a Tone Indicator</a
+        ><span>~</span><a href="mailto:luanphamgia@gmail.com">Get in Touch</a>
+      </div>
+    </header>
+    <div id="app">
+      <div id="input" class="box">
+        <div class="info"><h2>Input Text:</h2></div>
+
+        <textarea
+          type="text"
+          id="inputTextBox"
+          placeholder="Try something like 'Ur a dork /s'..."
+        ></textarea>
+      </div>
+
+      <div id="output" class="box">
+        <div class="info"><h2>Result:</h2></div>
+        <div id="outputTextBox"></div>
+      </div>
+    </div>
+
+    <div id="tableOfContents">
+      <table></table>
+    </div>
+
+    <script src="src/emojiCursor.js"></script>
+    <script src="src/index.js"></script>
+  </body>
+</html>
