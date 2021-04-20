@@ -1,5 +1,3 @@
-import "./styles.css";
-
 const source = document.getElementById("inputTextBox");
 const result = document.getElementById("outputTextBox");
 
