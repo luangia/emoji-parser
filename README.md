@@ -1,3 +1,3 @@
 # emoji-parser
-Website can be viewed [luangia.github.io/emoji-parser]here
+Website can be viewed [here](https://luangia.github.io/emoji-parser)
 
