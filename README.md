@@ -1,2 +1,3 @@
 # emoji-parser
-Website is at luangia.github.io/emoji-parser
+Website can be viewed [luangia.github.io/emoji-parser]here
+
