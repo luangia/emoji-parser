@@ -1,2 +1,2 @@
 # emoji-parser
-Created with CodeSandbox
+Website is at luangia.github.io/emoji-parser
