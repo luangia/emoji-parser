@@ -40,6 +40,11 @@ const emphasis = () => {
   return rand(emojis);
 };
 
+const awkward = () => {
+  const emojis = ["😬", "🧍", "😐", "😶", "🤐", "😳", "🙊", "👀", "👁👄👁"];
+  return rand(emojis);
+};
+
 const parseTag = (e) => {
   const tagText = e.target.value;
   result.innerHTML = tagText
@@ -49,10 +54,12 @@ const parseTag = (e) => {
     .replace(/\/j/gim, joking())
     .replace(/\/pos/gim, positive())
     .replace(/\*/gim, emphasis())
-    .replace(/\/mad/gim, mad());
+    .replace(/\/mad/gim, mad())
+    .replace(/\/awk/gim, awkward());
 };
 
 let legends = [
+  { tag: "/awk", meaning: "awkward" },
   { tag: "/fun", meaning: "funny" },
   { tag: "/j", meaning: "joking" },
   { tag: "/mad", meaning: "anger" },
